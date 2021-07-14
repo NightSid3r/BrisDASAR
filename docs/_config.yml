@@ -9,8 +9,8 @@ edit_on_github: true
 github_docs_folder: true
 sticky_navigation: true
 search_enabled: true
-logo: 'https://github.com/NightSid3r/BrisDASAR/blob/main/docs/BrisDASAR.png'
-site_favicon: 'https://github.com/NightSid3r/BrisDASAR/blob/main/docs/BrisDASAR.ico'
+logo: 'https://raw.githubusercontent.com/NightSid3r/BrisDASAR/main/docs/BrisDASAR.png'
+site_favicon: 'https://raw.githubusercontent.com/NightSid3r/BrisDASAR/main/docs/BrisDASAR.ico'
 prev_next_buttons_location: None
 prev_next_buttons_location: top
 prev_next_buttons_location: bottom
