@@ -1,8 +1,14 @@
 import sys
 sys.path.append( './bin')
+sys.path.append( './GUI')
 
 from drones import Drone
 import numpy as np
+import matplotlib.pyplot as plt
+import torch
+from scipy.ndimage.filters import maximum_filter
+from scipy.ndimage.morphology import generate_binary_structure, binary_erosion
+import imagepers
 
 x = np.linspace(-3,3,50)
 y=x

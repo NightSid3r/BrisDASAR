@@ -1,5 +1,3 @@
-import numpy
-
 class Drone():
     def __init__(self):
         self.droneType=None
