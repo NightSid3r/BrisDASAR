@@ -3,15 +3,25 @@ sys.path.append( './bin')
 sys.path.append( './GUI')
 
 from drones import Drone
+import dasarFunc
 import numpy as np
-import matplotlib.pyplot as plt
-import torch
-from scipy.ndimage.filters import maximum_filter
-from scipy.ndimage.morphology import generate_binary_structure, binary_erosion
-import imagepers
+
+
+Dronexcurrent = np.ones((1,2))
+Droneycurrent = np.ones((1,2))
+    
+select = 0
+
+numCells = 50
+
+drone_alt = 0
+pathsmoothing = 0
+showsteps=1
 
 x = np.linspace(-3,3,50)
 y=x
+for N in range(0,)
+targety, targetx = dasarFunc.randompoints(N)
 
 ActiveDrones={}
 NumDrones=4
